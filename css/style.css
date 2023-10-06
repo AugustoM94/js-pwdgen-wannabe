@@ -1,14 +1,28 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: beige;
 }
 #title {
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     align-content: center;
+    background-image: url(../img/thumb-1920-676749.jpg);
+    padding: 30px;
     
 }
 #title h2{
     color: red;
+    padding-top: 20px;
+}
+#title img {
+    width: 100%;
+    display: block;
 }
